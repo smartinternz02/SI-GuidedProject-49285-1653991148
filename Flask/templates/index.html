@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    input[type=text], select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    
+    input[type=submit] {
+      width: 100%;
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+    
+    div {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+    </style>
+    
+<body>
+    <div>
+        <h2>Machine Learning Approach For Predictive Maintenance Aircraft Engine Using IBM Watson Studio</h2>
+    </div>
+    <div>
+        <h3>About Project:</h3>
+        <p>Engine failure is highly risky and needs a lot of time for repair. Unexpected failure leads to loss of money and time. Predicting the failure prior, will save time, effort, money and sometimes even lives. The failure can be detected by installing the sensors and keeping a track of the values. The failure detection and predictive maintenance can be for any device, out of which we will be dealing with the engine failure for a threshold number of days.
+            The project aims to predict the failure of an engine by using Machine Learning to save loss of time & money thus improving productivity.</p>
+
+    </div>
+    <div>
+        <h2 style="color:red"><b>{{result}}</b></h2>
+        <form action="/predict" method=post>
+
+            <input type="text" name="id" placeholder="ID"><br><br>
+            <input type="text" name="cycle" placeholder="Current cycle"><br><br>
+        
+            <input type="text" name="setting1" placeholder="Settings 1"><br><br>
+            <input type="text" name="setting2" placeholder="Settings 2"><br><br>
+            <input type="text" name="setting3" placeholder="Settings 3"><br><br>
+        
+    
+            
+            <input type="text" name="s1" placeholder="Sensor 1"><br><br>
+            <input type="text" name="s2" placeholder="Sensor 2"><br><br>
+            <input type="text" name="s3" placeholder="Sensor 3"><br><br>
+            <input type="text" name="s4" placeholder="Sensor 4"><br><br>
+            <input type="text" name="s5" placeholder="Sensor 5"><br><br>
+            <input type="text" name="s6" placeholder="Sensor 6"><br><br>
+            <input type="text" name="s7" placeholder="Sensor 7"><br><br>
+            <input type="text" name="s8" placeholder="Sensor 8"><br><br>
+            <input type="text" name="s9" placeholder="Sensor 9"><br><br>
+            <input type="text" name="s10" placeholder="Sensor 10"><br><br>
+            <input type="text" name="s11" placeholder="Sensor 11"><br><br>
+            <input type="text" name="s12" placeholder="Sensor 12"><br><br>
+            <input type="text" name="s13" placeholder="Sensor 13"><br><br>
+            <input type="text" name="s14" placeholder="Sensor 14"><br><br>
+            <input type="text" name="s15" placeholder="Sensor 15"><br><br>
+            <input type="text" name="s16" placeholder="Sensor 16"><br><br>
+            <input type="text" name="s17" placeholder="Sensor 17"><br><br>
+            <input type="text" name="s18" placeholder="Sensor 18"><br><br>
+            <input type="text" name="s19" placeholder="Sensor 19"><br><br>
+            <input type="text" name="s20" placeholder="Sensor 20"><br><br>
+            <input type="text" name="s21" placeholder="Sensor 21"><br><br>
+    
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+        
+    </div>
+    
+</body>
+</html>
