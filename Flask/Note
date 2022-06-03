@@ -1,1 +1,6 @@
 
+This folder contains 
+i)templates for html files
+ii)app.py
+iii)score_end point
+iv)app_imb.py (Most important, collation of app.py and score_end point) [You need to run this file!!!]
